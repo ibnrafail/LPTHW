@@ -42,7 +42,7 @@ def match(word_list, expected_type):
 def skip(word_list, word_type):
 	"""
 	Skips all words of word_type
-	in the word_list
+	in sequence in the word_list
 	"""
 	while peek(word_list) == word_type:
 		match(word_list, word_type)
